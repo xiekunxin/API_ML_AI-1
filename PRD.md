@@ -15,14 +15,14 @@
 - 问题 Questions: 帮助不会做菜甚至想学做菜的人也能学会做菜，甚至知道如何搭配菜式，并且可以和志同道合的人一起交流想法。
 - 不做 Not doing: 有些特殊菜式和部分网红菜式不做探讨
 ## 产品结构
-#### 产品结构图
+#### 1.产品结构图
 ![Aaron Swartz](https://raw.githubusercontent.com/paihsinLi/API_ML_AI/master/%E7%BB%93%E6%9E%84%E5%9B%BE/%E4%BA%A7%E5%93%81%E7%BB%93%E6%9E%84%E5%9B%BE.png)
-#### 产品信息结构图
+#### 2.产品信息结构图
 ![Aaron Swartz](https://raw.githubusercontent.com/paihsinLi/API_ML_AI/master/%E7%BB%93%E6%9E%84%E5%9B%BE/%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 ## 功能阐述
-#### 功能权限
+#### 1.功能权限
 - 未登录状态: 未登录状态下可查看菜谱
 - 已登录状态: 已登录状态下可执行所有操作
-#### 键盘说明
+#### 2.键盘说明
 - 点击手机注册/手机登陆输入框时弹出数字键盘
 - 点击其他输入框时弹出字母键盘
