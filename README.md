@@ -40,4 +40,12 @@
 - 点击“喜好设置”按钮，进入喜好设置页面
 - 点击“鼓励一下”按钮，进入appstore为爱厨房评分
 - 点击“修改密码”按钮，进入修改密码页面
-## 产品原型
+## API图像识别
+- 首先进入到百度AI的官网，找到图像识别需要的API
+- 接下来就是代码调用部分了，要使用API，我们需要得到一个叫“access_token”。它需要“API Key”和“Secret Key”来获取。
+- 把Api Key和Secret Key提交给https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials
+- 然后它就会把access_token返回给你，读取下来，然后因为是json格式，所以用json.load()转成字典
+- 然后复制access_token那行代码，组合并调用，打开本地相册文件（要识别的美食）
+- 再把处理好的img和刚获得的access_token扔进一个字典里面，然后把字典提交给网址(https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general)，它会以json格式返回一个分析结果给我们。（得到我们想要的菜式）
+## 产品原型链接
+https://paihsinli.github.io/API_ML_AI/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B/#g=1&p=智能菜谱识别
