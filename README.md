@@ -54,8 +54,8 @@
 - 然后复制access_token那行代码，组合并调用，打开本地相册文件（要识别的美食）
 - 再把处理好的img和刚获得的access_token扔进一个字典里面，然后把字典提交给网址(https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general)，它会以json格式返回一个分析结果给我们。（得到我们想要的菜式）
 ## 产品原型链接
-https://paihsinli.github.io/API_ML_AI/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B/#g=1&p=智能菜谱识别
+<https://paihsinli.github.io/API_ML_AI/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B/#g=1&p=智能菜谱识别>
 ## 产品结构图链接
-http://naotu.baidu.com/file/ad8525f825d3b5d9ba06e05fa51f39ea
+<http://naotu.baidu.com/file/ad8525f825d3b5d9ba06e05fa51f39ea>
 ## 产品信息结构图链接
-http://naotu.baidu.com/file/53bc5e8a6332d0bc77cd2f55157d936c
+<http://naotu.baidu.com/file/53bc5e8a6332d0bc77cd2f55157d936c>
