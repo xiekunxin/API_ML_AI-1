@@ -53,6 +53,8 @@
 - 然后它就会把access_token返回给你，读取下来，然后因为是json格式，所以用json.load()转成字典
 - 然后复制access_token那行代码，组合并调用，打开本地相册文件（要识别的美食）
 - 再把处理好的img和刚获得的access_token扔进一个字典里面，然后把字典提交给网址(https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general)，它会以json格式返回一个分析结果给我们。（得到我们想要的菜式）
+## 交互过程
+
 ## 产品原型链接
 <https://paihsinli.github.io/API_ML_AI/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B/#g=1&p=智能菜谱识别>
 ## 产品结构图链接
