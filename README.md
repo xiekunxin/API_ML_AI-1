@@ -22,9 +22,9 @@
 - 不做 Not doing: （语音识别）用户通过语音询问得到菜式在百度百科上的相关信息
 ## 产品结构
 #### 1.产品结构图
-![Aaron Swartz](https://raw.githubusercontent.com/paihsinLi/API_ML_AI/master/%E7%BB%93%E6%9E%84%E5%9B%BE/%E4%BA%A7%E5%93%81%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/产品结构图.png)
 #### 2.产品信息结构图
-![Aaron Swartz](https://raw.githubusercontent.com/paihsinLi/API_ML_AI/master/%E7%BB%93%E6%9E%84%E5%9B%BE/%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/产品信息结构图.png)
 ## 功能阐述
 #### 1.功能权限
 - 未登录状态: 未登录状态下可查看菜谱
@@ -54,10 +54,25 @@
 - 然后复制access_token那行代码，组合并调用，打开本地相册文件（要识别的美食）
 - 再把处理好的img和刚获得的access_token扔进一个字典里面，然后把字典提交给网址(https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general)，它会以json格式返回一个分析结果给我们。（得到我们想要的菜式）
 ## 交互过程
-
+#### 1.界面识别
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/界面识别.png)
+#### 2.识别模块
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/识别模块.png)
+#### 3.拍照模块
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/拍照模块.png)
+#### 4.菜谱模块
+![Aaron Swartz](https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/菜谱模块.png)
 ## 产品原型链接
 <https://paihsinli.github.io/API_ML_AI/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B/#g=1&p=智能菜谱识别>
 ## 产品结构图链接
-<http://naotu.baidu.com/file/ad8525f825d3b5d9ba06e05fa51f39ea>
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/产品结构图.png>
 ## 产品信息结构图链接
-<http://naotu.baidu.com/file/53bc5e8a6332d0bc77cd2f55157d936c>
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/产品信息结构图.png>
+## 界面识别
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/界面识别.png>
+## 识别模块
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/识别模块.png>
+## 拍照模块
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/拍照模块.png>
+## 菜谱模块
+<https://github.com/paihsinLi/API_ML_AI/blob/master/结构图/菜谱模块.png>
